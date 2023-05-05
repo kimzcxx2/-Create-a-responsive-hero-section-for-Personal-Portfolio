@@ -1,0 +1,378 @@
+* {
+    
+    
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #EFEFEF;
+    color: black;
+  }
+  
+ header{
+  height: 50px;
+ }
+  .nav {
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: row-reverse;
+    background-color: #EFEFEF;
+height: 50px;
+
+  }
+  
+.logo{
+  margin-inline-end: 6rem;
+}
+
+  .logo a{
+    font-size: 1.8rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-decoration: none;
+   color: black;
+   
+  }
+  
+  .hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  .hamburger .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+  }
+  
+  .nav__link {
+    position: fixed;
+    width: 100%;
+    top: 5rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    
+    background-color: #EFEFEF;
+ 
+  }
+  
+  .nav__link a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    
+    text-transform: uppercase;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .nav__link a:hover {
+    background-color: lightcoral;
+  }
+
+  .nav__link .icons{
+    display: none;
+  }
+  
+  .hide {
+    display: none;
+  }
+  .heading h1{
+    text-align: center;
+    font-size: 57px;
+  }
+
+
+
+
+
+  .card-1-details{
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+  }
+
+.card-1 p{
+width: 260px;
+color: #cdcbcb;
+}
+
+
+.card-2 p{
+width: 260px;
+color: #cdcbcb;
+}
+.card-3 p{
+width: 260px;
+color: #cdcbcb;
+}
+
+
+.image-section img{
+width: 20em;
+border-radius: 120px 120px 120px 120px;
+}
+
+
+.para-section p{
+width: 460px;
+
+}
+
+
+
+.right-sub-details button{
+background-color: black;
+color: white;
+padding: 12px 29px;
+}
+
+
+.hero-section-parent{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+flex-direction: column-reverse;
+width: auto;
+
+
+}
+
+
+  @media screen and (min-width: 1000px) {
+    .nav__link {
+      display: block;
+      position: static;
+      width: auto;
+      display: flex;
+      background: none;
+      box-shadow: none;
+
+      
+    }
+  
+.heading h1{
+  text-align: center;
+  font-size: 57px;
+}
+
+
+    .nav__link a {
+      display: inline-block;
+      padding: 15px 20px;
+      font-size: 15px;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      color: black;
+      font-size: 15px;
+      
+      text-transform: uppercase;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+    .nav {
+        position: fixed;
+        top: 0;
+        bottom: 10;
+        left: 0;
+        right: 0;
+        display: flex;
+   justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        flex-direction: row;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        padding-left: 50px ;
+        padding-right: 50px;
+     
+      }
+
+
+
+
+      .logo{
+       
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font: optional;
+      font-size: 20px;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+    
+      }
+
+
+
+      .icons img{
+        padding-left: 12px;
+        padding-right: 12px;
+        
+      }
+
+
+
+      .card-1-details{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+.card-1 p{
+  width: 260px;
+  color: #cdcbcb;
+}
+
+
+.card-2 p{
+  width: 260px;
+  color: #cdcbcb;
+}
+.card-3 p{
+  width: 260px;
+  color: #cdcbcb;
+}
+
+
+.image-section img{
+width: 20em;
+border-radius: 120px 120px 120px 120px;
+}
+
+
+.para-section p{
+ 
+  width: calc(460px - 100px);
+ 
+}
+
+.right-sub-details button{
+  background-color: black;
+  color: white;
+  padding: 12px 29px;
+}
+
+
+.hero-section-parent{
+display: flex;
+justify-content:center;
+flex-direction: row;
+width: calc(99% - 100px);
+padding-left: 80px;
+padding-right: 00px;
+width: auto;
+
+}
+
+.expirence-section{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.services{
+  
+}
+
+  }
+
+
+  @media screen and (max-width: 500px) {
+
+      .icons {
+      display: none;
+    }
+
+    .logo{
+      font-size: 18px;
+    }
+
+    .nav__link .icons {
+      display: block;
+     width: 100%;
+   display: flex;
+   justify-content: center;
+     
+    
+    }
+    .heading h1{
+      text-align: center;
+      font-size:30px;
+    }
+
+    .nav__link .icons img{
+      padding: 0px 22px;
+    }
+
+
+    .icons img{
+      padding-left: 12px;
+      padding-right: 12px;
+      
+    }
+
+
+
+    .card-1-details{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+.card-1 p{
+width: 260px;
+color: #cdcbcb;
+}
+
+
+.card-2 p{
+width: 260px;
+color: #cdcbcb;
+}
+.card-3 p{
+width: 260px;
+color: #cdcbcb;
+}
+
+
+.image-section img{
+width: 20em;
+border-radius: 120px 120px 120px 120px;
+}
+
+
+.para-section p{
+
+width: calc(460px - 100px);
+
+}
+
+.right-sub-details button{
+background-color: black;
+color: white;
+padding: 12px 29px;
+}
+
+
+.hero-section-parent{
+
+gap: 0rem;
+width: calc(99% - 100px);
+display: flex;
+justify-content: center;
+width: auto;
+
+}
+
+
+  }
